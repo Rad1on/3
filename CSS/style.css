@@ -47,19 +47,33 @@ a {
 header {
   background: #ffffff;
 }
+.container {
+  outline: 2px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  display: flex;
+}
 
 .logo{
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em; 
-}
-nav .logo{
+  letter-spacing: 0.03em;
   color: inherit;
+  width: 145px;
 }
+.logo{
+  padding: 0px;
+}
+
 .first-part-logo{
   color: var(--logo-text-color);
+}
+.header-container .logo{
+  margin: 25px 93px 25px;
+
 }
 .site-nav a,
 .header-address a{
@@ -75,16 +89,40 @@ nav .logo{
 .site-nav :hover, 
 .site-nav :focus {
 color: var(--hover-focus-color);}
+nav{
+  display: flex;
+}
+.site-nav{
+  width: 294px;
+  padding: 0px;
+  margin: 30px 0px 30px 0px;
+  display: flex;
+  justify-content:space-between ;
+}
 
 .header-address :hover,
 .header-address :focus {
   color: var(--hover-focus-color);}
+  .header-address{
+    width: 307px;
+  }
+.header-address{
+  padding: 0px;
+  margin: 32px 0px 32px 0px;
+  justify-content: flex-end;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 /* studio //////////main///////// style  */
 /* Hero */
 .hero {
   background-color: #2f303a;
   text-align: center;
+  margin-bottom: 94px;
 }
 .hero-tittle {
   font-weight: 900;
@@ -111,17 +149,23 @@ color: var(--hover-focus-color);}
 }
 
 /* feature */
+.feature-one,
+.feature-one-text {
+  width: 270px;
+}
 
+.feature-container{
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .feature-tittle {
   opacity: 0;
  font-size: 0px;
   padding: 0px 0px;
-  margin-bottom: 94px;
+  margin:0px;
 }
-.feature-one,
-.feature-one-text{
-width: 270px;
-}
+
 .feature-one {
   font-family: 'Roboto';
   font-style: normal;
@@ -140,6 +184,17 @@ width: 270px;
   /* or 171% */
   letter-spacing: 0.03em;
 }
+.feature-section {
+  margin: 0px;
+  padding: 0px;
+}
+ul.feature-list{
+margin: 0px 0px 0px 0px;
+width: 1200px;
+padding: 0px 0px 0px 0px;
+display: flex;
+justify-content: space-between;
+}
 
 /* studio-section */
 .doing-tittle,
@@ -149,6 +204,13 @@ width: 270px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.doing-list{
+  width: 1200;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*our team*/
 .team > h3 {
