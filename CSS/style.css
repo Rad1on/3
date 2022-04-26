@@ -268,7 +268,9 @@ h2.team-tittle{
 main{
   background-color: white;
 }
+button{
 
+}
 .position {
   min-width: 73px;
   font-weight: 500;
@@ -278,12 +280,14 @@ main{
   letter-spacing: 0.03em;
   border-radius: 4px;
   padding: 6px 22px;
-  background-color: var(#F5F4FA); 
+  background-color: #F5F4FA; 
   cursor: pointer;
+  border:none
 }
 .position:hover {
   color: #ffffff;
   background-color: var(--hover-focus-color);
+  ;
 }
 .position{
   margin: 94px 4px 36px 4px ;
