@@ -25,7 +25,7 @@
 
 body {
   font-family: roboto, sans-serif;
-  background-color: var(--main-background-color);
+  background-color: white;
   color: var(--main-text-color);
 }
 h1,h2,h3,h4,h5,h6{
@@ -57,7 +57,7 @@ header {
   background: #ffffff;
 }
 .container {
-  outline: 2px solid tomato;
+  outline: 1px solid #2196f3;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -107,7 +107,7 @@ nav{
 .site-nav{
   width: 294px;
   padding: 0px;
-  margin: 30px 355px 30px 0px;
+  margin: 4px 355px 30px 0px;
   display: flex;
   justify-content:space-between;
   align-items: center;
@@ -216,25 +216,23 @@ justify-content: space-between;
 .doing{
   margin-bottom: 94px;
 }
-ul.doing-list{
-  width: 1200;
+.doing-list{
   display: flex;
   justify-content:space-between;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
 }
+
 .doing.container{
   margin-bottom: 94px;
 }
 /*our team*/ 
-h2.team-tittle{
-  padding: 90px 0px 0px 0px;
-  margin-bottom: 50px;
-  
-}
 .our-team{
   background-color: #F5F4FA;
 }
+h2.team-tittle{
+  padding: 90px 0px 0px 0px;
+  margin-bottom: 50px;
+}
+
 .team > h3 {
   font-weight: 500;
   font-size: 16px;
@@ -262,7 +260,7 @@ h2.team-tittle{
 }
 /* Portfolio //////////main///////// style  */
 main{
-  background-color: var(--main-background-color);
+  background-color: white;
 }
 
 .position {
@@ -274,7 +272,7 @@ main{
   letter-spacing: 0.03em;
   border-radius: 4px;
   padding: 6px 22px;
-  color: var(#F5F4FA);
+  background-color: var(#F5F4FA); 
   cursor: pointer;
 }
 .position:hover {
@@ -284,14 +282,13 @@ main{
 .position{
   margin: 94px 4px 36px 4px ;
 }
+
 .filter-list{
   display: flex;
   justify-content: center;
   margin-right: auto;
   margin-left: auto;
 }
-
-
 .all {
   background-color: var(--main-background-color);
 }
@@ -322,7 +319,18 @@ main{
 .footer .logo {
   color: #ffffff;
 }
-
+.footer .logo{
+  margin-top: 60px;
+}
+.footer-adress{
+  margin-top: 20px;
+}
+.contact{
+  margin-top: 9px;
+}
+address:last-child{
+  margin-bottom: 60px;
+}
 .footer{
   font-weight: 400;
   font-size: 14px;
