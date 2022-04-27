@@ -228,10 +228,7 @@ justify-content: space-between;
 .doing-list{
   width: 1200px;
   display: flex;
-}
-.doing-list-item:nth-child(2n+1) {
-  margin-right: 30px;
-  margin-left: 30px;
+  justify-content: space-between;
 }
 
 .doing.container{
