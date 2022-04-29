@@ -228,7 +228,7 @@ justify-content: space-between;
 .doing-list{
   width: 1200px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .doing.container{
