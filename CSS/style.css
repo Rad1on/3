@@ -30,6 +30,7 @@ body {
   sans-serif;
   background-color: white;
   color: var(--main-text-color);
+  margin: 0;
 }
 h1,h2,h3,h4,h5,h6{
   color: var(--main-text-color);
@@ -90,7 +91,7 @@ header {
 
 }
 nav a.logo{
-  margin: 25px 93px 25px 0px;
+  margin: 25px 93px 20px 0px;
 }
 .site-nav a,
 .header-address a{
@@ -112,7 +113,7 @@ nav{
 .site-nav{
   width: 294px;
   padding: 0px;
-  margin: 4px 355px 30px 0px;
+  margin: 4px 355px 0px 0px;
   display: flex;
   justify-content:space-between;
   align-items: center;
@@ -284,6 +285,7 @@ main{
 }
 
 .position {
+  font-family: 'Roboto';
   min-width: 73px;
   font-weight: 500;
   font-size: 16px;
@@ -307,7 +309,9 @@ main{
 .position{
   margin: 94px 4px 36px 4px ;
 }
+.filter-list{
 
+}
 .filter-list{
   display: flex;
   justify-content: center;
@@ -326,12 +330,21 @@ main{
   letter-spacing: 0.06em; 
 }
 .all-one > p {
-  
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
+.all-one > p{
+  margin-bottom: 20px;
+}
+.all-one > img{
+  margin-bottom: 20px;
+}
+.all-one > h3 {
+  margin-bottom: 4px;
+}
+
 .all-list{
   display: flex;
   flex-wrap: wrap;
