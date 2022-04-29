@@ -55,6 +55,10 @@ li{
 a {
   text-decoration: none;
 }
+address{
+  padding: 0px;
+  margin:0px
+}
 
 /* site nav */
 
@@ -81,17 +85,17 @@ header {
 }
 .logo{
   padding: 0px;
-}
+} 
 
 .first-part-logo{
   color: var(--logo-text-color);
 }
-.header-container .logo{
-  margin: 25px 93px 25px;
+ .header-container .logo{
+  margin: 25px 93px 25px 0px;
 
-}
+} 
 nav a.logo{
-  margin: 25px 93px 20px 0px;
+  margin: 25px 93px 25px 0px;
 }
 .site-nav a,
 .header-address a{
@@ -107,13 +111,14 @@ nav a.logo{
 .site-nav :hover, 
 .site-nav :focus {
 color: var(--hover-focus-color);}
+
 nav{
   display: flex;
-}
+} 
 .site-nav{
   width: 294px;
   padding: 0px;
-  margin: 4px 355px 0px 0px;
+  margin: 0px 355px 0px 0px;
   display: flex;
   justify-content:space-between;
   align-items: center;
@@ -122,12 +127,11 @@ nav{
 .header-address :hover,
 .header-address :focus {
   color: var(--hover-focus-color);}
-  .header-address{
-    width: 307px;
-  }
 .header-address{
-  
-  padding: 0px;
+    width: 307px;}
+
+ .header-address{
+   padding: 0px;
   margin: 32px 0px 32px 0px;
   display: flex;
   justify-content: space-between;
@@ -363,7 +367,7 @@ main{
 .contact{
   margin-top: 9px;
 }
-address:last-child{
+.footer-adress:last-child{
   margin-bottom: 60px;
 }
 .footer{
