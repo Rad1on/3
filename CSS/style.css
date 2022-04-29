@@ -310,9 +310,6 @@ main{
   margin: 94px 4px 36px 4px ;
 }
 .filter-list{
-
-}
-.filter-list{
   display: flex;
   justify-content: center;
   margin-right: auto;
